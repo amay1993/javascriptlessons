@@ -22,11 +22,67 @@ let population = 5640354;
 console.log(country);
 console.log(continent);
 console.log(population);
-
 // type of operator
-true; 
-console.log(true);
-
-console.log(typeof true);
+continent = 'South East Asia'
+console.log(typeof continent);
+console.log(continent);
+continent = true;
+console.log(typeof continent);
+console.log(continent);
 console.log(typeof country);
 console.log(typeof population);
+country = 'Spain';
+continent = 'Europe';
+console.log(typeof continent);
+console.log(continent);
+console.log(country);
+
+
+let person = true;
+console.log(typeof person);
+person = 45;
+
+// undefined values
+
+let year;
+console.log(year);
+console.log(typeof year);
+
+year = 1993;
+console.log(year);
+console.log(typeof year);
+
+// Practice 2
+console.log("Practice 2");
+country = 'Singapore';
+let isIsland = true;
+let language;
+console.log(isIsland);
+console.log(typeof isIsland);
+console.log(population);
+console.log(typeof population);
+console.log(country);
+console.log(typeof country);
+console.log(language);
+console.log(typeof language);
+
+// Practice 3
+const langauge = 'English';
+const country2 = 'Singapore';
+let population2 = 500000;
+const continent2 = "SEA";
+
+//Lect 14 - Operators 
+
+const firstName = "Anginn";
+const lastName = "May";
+console.log(firstName,lastName);
+console.log(firstName+' '+lastName);
+
+let x = 10 * 2;
+x += 5;
+x *= 4;
+x++;
+x--;
+x--;
+console.log(x);
