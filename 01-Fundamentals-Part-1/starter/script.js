@@ -79,10 +79,17 @@ const lastName = "May";
 console.log(firstName,lastName);
 console.log(firstName+' '+lastName);
 
-let x = 10 * 2;
-x += 5;
-x *= 4;
-x++;
-x--;
-x--;
+let now = 2034
+const ageJonas = now - 1991; // the variable in the const identifier can be changing
+console.log('his age is ', ageJonas);
+
+// Assignment operators
+let x = 10 * 2; // 20
+x += 5; // x = x + 5 = 25
+x *= 4; // x = x * 4 = 100
+x++; // x = x + 1 = 101
+x--; // x = x - 1 = 100
+x--; 
 console.log(x);
+
+// Comparison operators
